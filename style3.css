@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('../Images/dj.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box{
+      width: 300px;
+      padding: 40px;
+      position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       background: transparent;
+       text-align: center;
+  
+  }
+  
+  .box input[type="text"],.box input[type="First name"]{
+      border: 0;
+      background: none;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      border: 2px solid #3498db;
+      padding: 14px 10px;
+      width: 200px;
+      outline: none;
+      color: white;
+      border-radius: 24px;
+      transition: 0.25s;
+      
+  }
+  
+  .box input[type="text"]:focus,.box input[type="First name"]:focus{
+      width: 200px;
+      border-color: #2ecc71;
+  }
+
+  .box input[type="text"],.box input[type="Last name"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+
+.box input[type="text"]:focus,.box input[type="Last name"]:focus{
+    width: 200px;
+    border-color: #2ecc71;
+}
+
+.box input[type="email"],.box input[type="Email address"]{
+    border: 5px solid red;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+
+.box input[type="email"]:focus,.box input[type="Email address"]:focus{
+    width: 200px;
+    border-color: #2ecc71;
+}
+
+.box input[type="tel"],.box input[type="Phone number"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+
+.box input[type="tel"]:focus,.box input[type="Phone Number"]:focus{
+    width: 200px;
+    border-color: #2ecc71;
+}
+
+.box input[type="password"],.box input[type="Confirm Password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+
+.box input[type="Password"]:focus,.box input[type="Confirm Password"]:focus{
+    width: 200px;
+    border-color: #2ecc71;
+}
+
+
+  .box input[type="submit"]{
+      border: 0;
+      background: none;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      border: 2px solid #2ecc71;
+      padding: 14px 40px;
+      width: 200px;
+      outline: none;
+      color: white;
+      border-radius: 24px;
+      transition: 0.25s;
+      cursor: pionter;
+  
+  }
+  
+  .box input[type="submit"]:hover{
+      background: #2ecc71;
+  }
+
+  body .btnone{
+    padding: 12px 30px;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+    color: white;
+    text-align: center;
+    background: transparent;
+    font-size: 16px;
+ }
+ 
+ body .btnone:hover{
+     background: orange;
+     color: black;
+ }
+
+
+  input::placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
